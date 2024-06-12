@@ -1,0 +1,27 @@
+I HAVE CREATED README IN GIT REMOTE REPO AND CLONED IN MY LOCAL UBUNTU TERMINAL 
+
+THIS WAS DONE WITH CREATION OF SINGLE BRANCH CALLED "FEATURE BRANCH"  FROM MAIN BRANCH AND
+STEPS:
+1) git clone URL
+2) git branch -> Master
+3) git branch feature
+4) git branch -> Master
+                 feature
+5) git checkout feature
+6) vi README and edited some content
+7) git add .
+8) git commit -m "msg"
+9) git push origin feature
+BEFORE RAISING MERGE REQUEST TO MASTER SO I WILL DO FOLLOWING STEPS:
+10) git checkout master
+11) vi README 
+12) git add .
+13) git commit -m "msg"
+14) git push origin main
+15) NOW RAISE THE MR TO main branch FROM feature branch and check WHETHER MERGE CONFLICTS HAPPENS OR NOT 
+
+CONTENT(EDITING)
+hi this is tulajaram
+how are you
+hello ??
+now 
